@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "name": "AudioLock",
+  "status": "development-unverified",
+  "generatedAt": "2026-10-25T15:38:55.458831+00:00",
+  "factDate": "2026-10-25",
+  "scope": "one full Mac App Store version; simultaneous independent app inputs and outputs",
+  "capabilities": {
+    "global_input_lock": {
+      "state": "pending"
+    },
+    "global_output_lock": {
+      "state": "pending"
+    },
+    "per_app_input_routing": {
+      "state": "pending"
+    },
+    "per_app_output_routing": {
+      "state": "pending"
+    },
+    "simultaneous_duplex_routing": {
+      "state": "pending"
+    },
+    "sandbox_and_self_contained": {
+      "state": "pending"
+    },
+    "safe_disconnect_and_recovery": {
+      "state": "pending"
+    },
+    "storekit_purchase_and_restore": {
+      "state": "pending"
+    },
+    "seven_locale_native_ui": {
+      "state": "pending"
+    },
+    "signed_archive_and_package": {
+      "state": "pending"
+    },
+    "real_store_screenshots": {
+      "state": "pending"
+    },
+    "trial_and_annual_policy": {
+      "state": "pending"
+    }
+  },
+  "baseURL": null,
+  "appStoreURL": null,
+  "pageLocales": [
+    "en-US",
+    "zh-Hans"
+  ],
+  "storeMetadataLocales": [
+    "en-US",
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko",
+    "de-DE",
+    "fr-FR"
+  ],
+  "pricesAreTargets": true,
+  "targetPrices": {
+    "currency": "USD",
+    "annual": "0.99",
+    "lifetime": "4.99",
+    "trialDays": 14,
+    "trialAutoConverts": false
+  },
+  "privacy": {
+    "audioProcessing": "local volatile memory",
+    "audioRecordingFiles": false,
+    "developerAudioUploads": false,
+    "developerAnalytics": false,
+    "settings": "local device IDs, app rules and preferences",
+    "purchases": "Apple StoreKit; separate Apple policies",
+    "finalBuildReviewVerified": false
+  },
+  "discoverability": {
+    "indexableBuild": false,
+    "indexingGuaranteed": false,
+    "richResultsGuaranteed": false,
+    "aiCitationsGuaranteed": false
+  },
+  "sources": [
+    "https://developers.google.com/search/docs/appearance/ai-features",
+    "https://developers.google.com/search/docs/appearance/structured-data/software-app",
+    "https://developers.google.com/search/docs/appearance/structured-data/sd-policies"
+  ]
+}
