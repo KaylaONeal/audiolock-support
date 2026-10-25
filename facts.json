@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "name": "AudioLock",
+  "name": "AudioLock: Input Output Pin",
   "status": "development-unverified",
-  "generatedAt": "2026-10-25T15:38:55.458831+00:00",
+  "generatedAt": "2026-10-25T15:43:11.260369+00:00",
   "factDate": "2026-10-25",
   "scope": "one full Mac App Store version; simultaneous independent app inputs and outputs",
   "capabilities": {
@@ -43,7 +43,7 @@
       "state": "pending"
     }
   },
-  "baseURL": null,
+  "baseURL": "https://kaylaoneal.github.io/audiolock-support/",
   "appStoreURL": null,
   "pageLocales": [
     "en-US",
