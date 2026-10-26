@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "name": "AudioLock: Input Output Pin",
   "status": "development-unverified",
-  "generatedAt": "2026-10-25T15:43:11.260369+00:00",
-  "factDate": "2026-10-25",
+  "generatedAt": "2026-10-26T02:27:11.570108+00:00",
+  "factDate": "2026-10-26",
   "scope": "one full Mac App Store version; simultaneous independent app inputs and outputs",
   "capabilities": {
     "global_input_lock": {
@@ -34,7 +34,7 @@
       "state": "pending"
     },
     "signed_archive_and_package": {
-      "state": "pending"
+      "state": "verified"
     },
     "real_store_screenshots": {
       "state": "pending"
@@ -65,6 +65,17 @@
     "lifetime": "4.99",
     "trialDays": 14,
     "trialAutoConverts": false
+  },
+  "purchasePolicy": {
+    "trialStart": "Apple-confirmed zero-price non-consumable purchase",
+    "trialDays": 14,
+    "trialAutoConverts": false,
+    "annualDuration": "one year",
+    "annualAutoRenews": false,
+    "paidOptionsUnlockSameFunctions": true,
+    "existingRoutesAndDeviceLocksContinueOnExpiry": true,
+    "newRoutesAndDeviceLocksRequirePurchaseAfterExpiry": true,
+    "restorePurchasesAvailable": true
   },
   "privacy": {
     "audioProcessing": "local volatile memory",
