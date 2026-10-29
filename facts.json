@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "name": "AudioLock: Input Output Pin",
   "status": "development-unverified",
-  "generatedAt": "2026-10-26T02:27:11.570108+00:00",
-  "factDate": "2026-10-26",
+  "generatedAt": "2026-10-29T17:47:56.192150+00:00",
+  "factDate": "2026-10-30",
   "scope": "one full Mac App Store version; simultaneous independent app inputs and outputs",
   "capabilities": {
     "global_input_lock": {
@@ -34,12 +34,12 @@
       "state": "pending"
     },
     "signed_archive_and_package": {
-      "state": "verified"
+      "state": "pending"
     },
     "real_store_screenshots": {
       "state": "pending"
     },
-    "trial_and_annual_policy": {
+    "subscription_offer_policy": {
       "state": "pending"
     }
   },
@@ -61,17 +61,19 @@
   "pricesAreTargets": true,
   "targetPrices": {
     "currency": "USD",
-    "annual": "0.99",
-    "lifetime": "4.99",
-    "trialDays": 14,
-    "trialAutoConverts": false
+    "monthly": "1.99",
+    "annual": "19.99",
+    "newTrialOffered": false
   },
   "purchasePolicy": {
-    "trialStart": "Apple-confirmed zero-price non-consumable purchase",
-    "trialDays": 14,
-    "trialAutoConverts": false,
+    "newTrialOffered": false,
+    "legacyTrialDays": 14,
+    "legacyTrialAutoConverts": false,
+    "legacyEntitlementsHonored": true,
+    "monthlyDuration": "one month",
+    "monthlyAutoRenews": true,
     "annualDuration": "one year",
-    "annualAutoRenews": false,
+    "annualAutoRenews": true,
     "paidOptionsUnlockSameFunctions": true,
     "existingRoutesAndDeviceLocksContinueOnExpiry": true,
     "newRoutesAndDeviceLocksRequirePurchaseAfterExpiry": true,
